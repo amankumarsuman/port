@@ -102,15 +102,7 @@ module.exports = {
 
 
   projects: [
-    {
-      title: 'Redbus Website Clone',
-      tech: ['React', 'Redux', 'Firebase', 'Json Server'],
-      github: 'https://github.com/amankumarsuman/redbus-clone-masai.git',
-      image:
-        'https://cdn.hashnode.com/res/hashnode/image/upload/v1627762332983/Mm_D10_ZY.png?auto=compress',
-      html:
-        '<p>RedBus is the world largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes..</p>',
-    },
+   
     {
       title: 'Timecamp Website Clone',
       tech: ['React', 'Redux', 'Firebase', 'Json Server'],
