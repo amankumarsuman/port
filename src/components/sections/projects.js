@@ -213,7 +213,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { github, external, title, tech,Deploye_link, } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -222,7 +222,7 @@ const Projects = () => {
             <div className="folder">
               <Icon name="Folder" />
             </div>
-            <div className="project-links">
+            <div  className="project-links">
               {github && (
                 <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
                   <Icon name="GitHub" />
@@ -238,7 +238,9 @@ const Projects = () => {
                   <Icon name="External" />
                 </a>
               )}
+              
             </div>
+           
           </div>
 
           <h3 className="project-title">
@@ -246,6 +248,7 @@ const Projects = () => {
               {title}
             </a>
           </h3>
+
 
           <div className="project-description" dangerouslySetInnerHTML={{ __html: html }} />
         </header>
