@@ -314,7 +314,7 @@ const Featured = () => {
 
       <StyledProjectsGrid>
         {projects &&
-          projects.map(({ title, tech, github, image, html, link,deploy,}, i) => (
+          projects.map(({ title, tech, github, image, html, link,}, i) => (
             <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
               <div className="project-content">
                 <div>
@@ -347,17 +347,7 @@ const Featured = () => {
                   
                     
                   </div>
-                  <div  className="project-links">
-                  {github && (
-                    <a  href={github} aria-label="GitHub Link">
-                      <Icon name="GitHub" />
-                    </a>
-                  )}
-                  
-                
-                
-                  
-                </div>
+             
                   
                 
                 </div>

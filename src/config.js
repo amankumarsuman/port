@@ -107,7 +107,7 @@ module.exports = {
       title: 'Timecamp Website Clone',
       tech: ['React', 'Redux', 'Firebase', 'Json Server'],
       github: 'https://github.com/amankumarsuman/unit-3-time-camp-clone.git',
-      deploy :'https://amantimecamp.netlify.app/',
+      
       image:
         'https://user-images.githubusercontent.com/68987839/127099965-61679718-960a-4bed-b746-80b2dccce78a.png',
       html:
